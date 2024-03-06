@@ -136,6 +136,36 @@ img {
         }
  }
 
+ @media screen and (max-width:480px){
+        .container{
+            width: 100%;
+        }
+
+        .row{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card{
+            margin-bottom: 50px;
+            padding: 40px;
+        }
+
+        .row .col{
+            margin: 0;
+            width: 100%;
+        }
+
+        .text-center{
+            margin-bottom: 0;
+        }
+
+        .why-us{
+            background-color: black;
+        }
+ 
+}
+    
  
     
  
